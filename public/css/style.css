@@ -1,0 +1,45 @@
+body{
+  font-family: 'Abel', sans-serif;
+  color: black;
+  background-color: white;
+}
+.header{
+  text-align: center;
+}
+h1{
+  font-family: 'Megrim', cursive;
+  font-size: 3.5em;
+  font-weight: bolder;
+}
+h2{
+  font-size: 1.25em;
+  line-height: 25px;
+}
+h3{
+  font-size: 2em;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+}
+.title{
+  font-size: 0.75em;
+  margin-top: 1px;
+}
+.col-xs-5 img{
+  position: fixed;
+}
+.location{
+  font-style: italic;
+  font-size: 0.75em;
+}
+li{
+  font-size: 1em;
+}
+.col-xs-7{
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 992px){
+  .col-xs-7{
+    margin-left: 20%;
+  }
+}
