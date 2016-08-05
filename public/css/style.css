@@ -37,7 +37,10 @@ li{
 .col-xs-7{
   margin: 0 auto;
 }
-
+.contact{
+  font-size: 2em;
+  letter-spacing: 5px;
+}
 @media only screen and (max-width: 992px){
   .col-xs-7{
     margin-left: 20%;
